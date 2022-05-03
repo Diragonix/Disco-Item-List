@@ -274,7 +274,7 @@ function loadItem(id) {
         bigName.innerText = element.name;
         bigDesc.innerText = element.description;
         bigImage.src = `./Items/${element.imageName}.png`;
-        loadBigImage(`./ItemsBig/${element.imageName}_big.png`);
+        loadBigImage(`./itemsBig/${element.imageName}_big.png`);
         icon.setAttribute('href', `./Items/${element.imageName}.png`);
         document.title = `DE Item List | ${element.name}`;
         statMods.innerHTML = "";
